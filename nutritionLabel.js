@@ -180,6 +180,32 @@
 		showVitaminC : true,
 		showCalcium : true,
 		showIron : true,
+		showAlphaCarot : true,
+		showBetaCarot : true,
+		showBetaCrypt : true,
+		showCalcium : true,
+		showCholine : true,
+		showCopper : true,
+		showFiber : true,
+		showFolate : true,
+		showFolicAcid : true,
+		showLycopene : true,
+		showMagnesium : true,
+		showManganese : true,
+		showPhosphorus : true,
+		showPotassium : true,
+		showRetinol : true,
+		showSelenium : true,
+		showVitaminB1 : true,
+		showVitaminB2 : true,
+		showVitaminB3 : true,
+		showVitaminB5 : true,
+		showVitaminB6 : true,
+		showVitaminB12 : true,
+		showVitaminD : true,
+		showVitaminE : true,
+		showVitaminK : true,
+		showZinc : true,
 
 		//to show the 'amount per serving' text
 		showAmountPerServing : true,
@@ -243,7 +269,32 @@
 		valueVitaminC : 0,
 		valueCalcium : 0,
 		valueIron : 0,
-
+valueAlphaCarot : 0,
+valueBetaCarot : 0,
+valueBetaCrypt : 0,
+valueCalcium : 0,
+valueCholine : 0,
+valueCopper : 0,
+valueFiber : 0,
+valueFolate : 0,
+valueFolicAcid : 0,
+valueLycopene : 0,
+valueMagnesium : 0,
+valueManganese : 0,
+valuePhosphorus : 0,
+valuePotassium : 0,
+valueRetinol : 0,
+valueSelenium : 0,
+valueVitaminB1 : 0,
+valueVitaminB2 : 0,
+valueVitaminB3 : 0,
+valueVitaminB5 : 0,
+valueVitaminB6 : 0,
+valueVitaminB12 : 0,
+valueVitaminD : 0,
+valueVitaminE : 0,
+valueVitaminK : 0,
+valueZinc : 0,
 		//customizable units for the values
 		unitCalories : '',
 		unitFatCalories : '',
@@ -262,6 +313,33 @@
 		unitVitaminC : '%',
 		unitCalcium : '%',
 		unitIron : '%',
+		unitAlphaCarot  : 'g',
+		unitBetaCarot  : 'g',
+		unitBetaCrypt  : 'g',
+		unitCalcium  : 'g',
+		unitCholine  : 'g',
+		unitCopper  : 'g',
+		unitFiber  : 'g',
+		unitFolate  : 'g',
+		unitFolicAcid  : 'g',
+		unitLycopene  : 'g',
+		unitMagnesium  : 'g',
+		unitManganese  : 'g',
+		unitPhosphorus  : 'g',
+		unitPotassium  : 'g',
+		unitRetinol  : 'g',
+		unitSelenium  : 'g',
+		unitVitB1  : 'g',
+		unitVitB2  : 'g',
+		unitVitB3  : 'g',
+		unitVitB5  : 'g',
+		unitVitB6  : 'g',
+		unitVitB12  : 'g',
+		unitVitD  : 'g',
+		unitVitE  : 'g',
+		unitVitK  : 'g',
+		unitZinc  : 'g',
+
 
 		//these are the values for the optional calorie diet
 		valueCol1CalorieDiet : 2000,
@@ -302,6 +380,32 @@
 		textVitaminC : 'Vitamin C',
 		textCalcium : 'Calcium',
 		textIron : 'Iron',
+		textAlphaCarot : 'AlphaCarot',
+		textBetaCarot : 'BetaCarot',
+		textBetaCrypt : 'BetaCrypt',
+		textCalcium : 'Calcium',
+		textCholine : 'Choline',
+		textCopper : 'Copper',
+		textFiber : 'Fiber',
+		textFolate : 'Folate',
+		textFolicAcid : 'FolicAcid',
+		textLycopene : 'Lycopene',
+		textMagnesium : 'Magnesium',
+		textManganese : 'Manganese',
+		textPhosphorus : 'Phosphorus',
+		textPotassium : 'Potassium',
+		textRetinol : 'Retinol',
+		textSelenium : 'Selenium',
+		textVitB1 : 'Vitamin B1',
+		textVitB2 : 'Vitamin B2',
+		textVitB3 : 'Vitamin B3',
+		textVitB5 : 'Vitamin B5',
+		textVitB6 : 'Vitamin B6',
+		textVitB12 : 'Vitamin B12',
+		textVitD : 'Vitamin D',
+		textVitE : 'Vitamin E',
+		textVitK : 'Vitamin K',
+		textZinc : 'Zinc',
 		ingredientList : 'None',
 		textPercentDailyPart1 : 'Percent Daily Values are based on a',
 		textPercentDailyPart2 : 'calorie diet'
@@ -325,7 +429,11 @@
 			'dailyValueFiber','valueServingSize','valueServingWeightGrams','valueServingPerContainer','valueCalories',
 			'valueFatCalories','valueTotalFat','valueSatFat','valueTransFat','valuePolyFat','valueMonoFat','valueCholesterol',
 			'valueSodium','valueTotalCarb','valueFibers','valueSugars','valueProteins','valueVitaminA','valueVitaminC',
-			'valueCalcium','valueIron','valueCol1CalorieDiet','valueCol2CalorieDiet','valueCol1DietaryTotalFat',
+			'valueCalcium','valueIron', 'valueAlphaCarot', 'valueBetaCarot', 'valueBetaCrypt', 'valueCalcium', 'valueCholine',
+			'valueCopper', 'valueFiber', 'valueFolate', 'valueFolicAcid', 'valueLycopene', 'valueMagnesium', 'valueManganese',
+			'valuePhosphorus', 'valuePotassium', 'valueRetinol', 'valueSelenium', 'valueVitaminB1', 'valueVitaminB2',
+			'valueVitaminB3', 'valueVitaminB5', 'valueVitaminB6', 'valueVitaminB12', 'valueVitaminD', 'valueVitaminE',
+			'valueVitaminK', 'valueZinc', 'valueCol1CalorieDiet','valueCol2CalorieDiet','valueCol1DietaryTotalFat',
 			'valueCol2DietaryTotalFat','valueCol1DietarySatFat','valueCol2DietarySatFat','valueCol1DietaryCholesterol',
 			'valueCol2DietaryCholesterol','valueCol1DietarySodium','valueCol2DietarySodium','valueCol1DietaryTotalCarb',
 			'valueCol2DietaryTotalCarb','valueCol1Dietary','valueCol2Dietary', 'valueServingUnitQuantity',
@@ -778,7 +886,7 @@
 			if ($this.nutritionLabel)
 				return $this.nutritionLabel;
 
-			if ($this.settings.hideNotAppicableValues){
+			if ($this.settings.hideNotAppicableValues) {
 				$this.settings.showCalories = $this.settings.naCalories ? false : $this.settings.showCalories;
 				$this.settings.showFatCalories = $this.settings.naFatCalories ? false : $this.settings.showFatCalories;
 				$this.settings.showTotalFat = $this.settings.naTotalFat ? false : $this.settings.showTotalFat;
@@ -796,6 +904,32 @@
 				$this.settings.showVitaminC = $this.settings.naVitaminC ? false : $this.settings.showVitaminC;
 				$this.settings.showCalcium = $this.settings.naCalcium ? false : $this.settings.showCalcium;
 				$this.settings.showIron = $this.settings.naIron ? false : $this.settings.showIron;
+				$this.settings.showAlphaCarot = $this.settings.naAlphaCarot ? false : $this.settings.showAlphaCarot;
+				$this.settings.showBetaCarot = $this.settings.naBetaCarot ? false : $this.settings.showBetaCarot;
+				$this.settings.showBetaCrypt = $this.settings.naBetaCrypt ? false : $this.settings.showBetaCrypt;
+				$this.settings.showCalcium = $this.settings.naCalcium ? false : $this.settings.showCalcium;
+				$this.settings.showCholine = $this.settings.naCholine ? false : $this.settings.showCholine;
+				$this.settings.showCopper = $this.settings.naCopper ? false : $this.settings.showCopper;
+				$this.settings.showFiber = $this.settings.naFiber ? false : $this.settings.showFiber;
+				$this.settings.showFolate = $this.settings.naFolate ? false : $this.settings.showFolate;
+				$this.settings.showFolicAcid = $this.settings.naFolicAcid ? false : $this.settings.showFolicAcid;
+				$this.settings.showLycopene = $this.settings.naLycopene ? false : $this.settings.showLycopene;
+				$this.settings.showMagnesium = $this.settings.naMagnesium ? false : $this.settings.showMagnesium;
+				$this.settings.showManganese = $this.settings.naManganese ? false : $this.settings.showManganese;
+				$this.settings.showPhosphorus = $this.settings.naPhosphorus ? false : $this.settings.showPhosphorus;
+				$this.settings.showPotassium = $this.settings.naPotassium ? false : $this.settings.showPotassium;
+				$this.settings.showRetinol = $this.settings.naRetinol ? false : $this.settings.showRetinol;
+				$this.settings.showSelenium = $this.settings.naSelenium ? false : $this.settings.showSelenium;
+				$this.settings.showVitaminB1 = $this.settings.naVitaminB1 ? false : $this.settings.showVitaminB1;
+				$this.settings.showVitaminB2 = $this.settings.naVitaminB2 ? false : $this.settings.showVitaminB2;
+				$this.settings.showVitaminB3 = $this.settings.naVitaminB3 ? false : $this.settings.showVitaminB3;
+				$this.settings.showVitaminB5 = $this.settings.naVitaminB5 ? false : $this.settings.showVitaminB5;
+				$this.settings.showVitaminB6 = $this.settings.naVitaminB6 ? false : $this.settings.showVitaminB6;
+				$this.settings.showVitaminB12 = $this.settings.naVitaminB12 ? false : $this.settings.showVitaminB12;
+				$this.settings.showVitaminD = $this.settings.naVitaminD ? false : $this.settings.showVitaminD;
+				$this.settings.showVitaminE = $this.settings.naVitaminE ? false : $this.settings.showVitaminE;
+				$this.settings.showVitaminK = $this.settings.naVitaminK ? false : $this.settings.showVitaminK;
+				$this.settings.showZinc = $this.settings.naZinc ? false : $this.settings.showZinc;
 			}
 
 			//initializing the tab variables
@@ -1274,19 +1408,69 @@
 
 			if ($this.settings.showVitaminC){
 				nutritionLabel += tab1 + '<div class="line vitaminC">\n';
-					nutritionLabel += tab2 + '<div class="dv">';
-						nutritionLabel += $this.settings.naVitaminC ?
-							naValue :
-							(
-							$this.settings.allowFDARounding ?
-								roundVitaminsCalciumIron($this.settings.valueVitaminC) :
-								parseFloat( $this.settings.valueVitaminC.toFixed($this.settings.decimalPlacesForNutrition) )
-							) + $this.settings.unitVitaminC;
-					nutritionLabel += '</div>\n';
+				nutritionLabel += tab2 + '<div class="dv">';
+				nutritionLabel += $this.settings.naVitaminC ?
+					naValue :
+				(
+					$this.settings.allowFDARounding ?
+						roundVitaminsCalciumIron($this.settings.valueVitaminC) :
+						parseFloat( $this.settings.valueVitaminC.toFixed($this.settings.decimalPlacesForNutrition) )
+				) + $this.settings.unitVitaminC;
+				nutritionLabel += '</div>\n';
 
-					nutritionLabel += tab2 + $this.settings.textVitaminC + '\n';
+				nutritionLabel += tab2 + $this.settings.textVitaminC + '\n';
 				nutritionLabel += tab1 + '</div>\n';
 			}
+
+			var t = ['AlphaCarot',
+			'BetaCarot',
+			'BetaCrypt',
+			'Calcium',
+			'Choline',
+			'Copper',
+			'Fiber',
+			'Folate',
+			'FolicAcid',
+			'Lycopene',
+			'Magnesium',
+			'Manganese',
+			'Phosphorus',
+			'Potassium',
+			'Retinol',
+			'Selenium',
+			'VitaminB1',
+			'VitaminB2',
+			'VitaminB3',
+			'VitaminB5',
+			'VitaminB6',
+			'VitaminB12',
+			'VitaminD',
+			'VitaminE',
+			'VitaminK',
+			'Zinc'];
+
+			t.forEach(function(nut) {
+				var showF = 'show' + nut;
+				var valueF = 'value' + nut;
+				var naF = 'na' + nut;
+				var textF = 'text' + nut;
+				var unitF = 'unit' + nut;
+				if ($this.settings[showF]) {
+					nutritionLabel += tab1 + '<div class="line vitaminC">\n';
+					nutritionLabel += tab2 + '<div class="dv">';
+					nutritionLabel += $this.settings[naF] ?
+						naValue :
+					(
+						$this.settings.allowFDARounding ?
+							roundVitaminsCalciumIron($this.settings[valueF]) :
+							parseFloat($this.settings[valueF].toFixed($this.settings.decimalPlacesForNutrition))
+					) + $this.settings[unitF];
+					nutritionLabel += '</div>\n';
+
+					nutritionLabel += tab2 + $this.settings[textF] + '\n';
+					nutritionLabel += tab1 + '</div>\n';
+				}
+			});
 
 
 			if ($this.settings.showCalcium){
@@ -1417,3 +1601,31 @@
 
 	};
 })(jQuery);
+
+/*
+AlphaCarot alpha_carot
+BetaCarot beta_carot
+BetaCrypt beta_crypt
+Calcium calcium
+Choline choline_tot
+Copper copper
+Fiber fiber_td
+Folate folate_tot
+FolicAcid folic_acid
+Lycopene lycopene
+Magnesium magnesium
+Manganese manganese
+Phosphorus phosphorus
+Potassium potassium
+Retinol retinol
+Selenium selenium
+VitB1 vit_b1
+VitB2 vit_b2
+VitB3 vit_b3
+VitB5 vit_b5
+VitB6 vit_b6
+VitB12 vit_b12
+VitD vit_d_mcg
+VitE vit_e
+VitK vit_k
+Zinc zinc*/
